@@ -31,8 +31,8 @@ public class OnlinePurchaseManager
       Gizmo g2 = purchases.get(i+1);
       if(g1.equals(g2))
         return true;
-      else return false;
     }
+    return false;
   }
   public OnlinePurchaseManager()
   {
